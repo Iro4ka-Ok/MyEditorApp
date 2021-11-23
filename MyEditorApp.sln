@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEditorApp", "MyEditorApp\MyEditorApp.csproj", "{B6A7C345-BF84-4D66-872E-B7449E524305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEditorApp", "MyEditorApp\MyEditorApp.csproj", "{B6A7C345-BF84-4D66-872E-B7449E524305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEditorLibrary", "MyLibrary\MyEditorLibrary.csproj", "{7B49151A-3B3B-4768-A311-41EE2193885D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEditorLibrary", "MyLibrary\MyEditorLibrary.csproj", "{7B49151A-3B3B-4768-A311-41EE2193885D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEditorLibrary.Tests", "MyEditorLibrary.Tests\MyEditorLibrary.Tests.csproj", "{D038ED45-BB55-461D-9C77-6DE41B43126D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B49151A-3B3B-4768-A311-41EE2193885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B49151A-3B3B-4768-A311-41EE2193885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B49151A-3B3B-4768-A311-41EE2193885D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D038ED45-BB55-461D-9C77-6DE41B43126D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D038ED45-BB55-461D-9C77-6DE41B43126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D038ED45-BB55-461D-9C77-6DE41B43126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D038ED45-BB55-461D-9C77-6DE41B43126D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

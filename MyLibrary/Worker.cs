@@ -1,6 +1,9 @@
-﻿
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("MyEditorLibrary.Tests")]
 namespace MyEditorLibrary
 {
+    
     internal class Worker
     {
         private readonly int _speed;
